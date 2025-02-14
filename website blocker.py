@@ -45,7 +45,7 @@ def Blocker():
                     host_file.write("{0} {1}".format(ip_address, website))
                     Label(root, text="Blocked", font='times 12 bold').place(x=230, y=300)
     except:
-        Label(root, text="Eyo dumbass, you either don't have permission or you chose the wrong OS").pack(side=BOTTOM)
+        Label(root, text="You either don't have permission or you chose the wrong OS").pack(side=BOTTOM)
 
 
 block = Button(root, text='Block', font='arial 12 bold', pady=5, command=Blocker, width=6, bg='royal blue1',
