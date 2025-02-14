@@ -10,3 +10,11 @@ For Mac,
 For Windows
 
 --run "sudo chmod 666 C:\Windows\System32\drivers\etc\hosts"
+
+Once the repository cloned,
+
+--run "chmod +x website" to give executable permission
+
+Finally, to run the blocker,
+
+--run "./website"
